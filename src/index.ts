@@ -13,7 +13,7 @@ const pluginConfig = ctx => {
       name: 'prefix',
       type: 'input',
       alias: '文件名个性前缀格式',
-      default: userConfig.prefixFormat || '',
+      default: userConfig.prefix || '',
       message: '例如 images/ 或者 image-',
       required: false
     }
